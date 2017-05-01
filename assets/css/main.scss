@@ -1,0 +1,19 @@
+$bgColor: #eee;
+$mainFontColor: #2e2f30;
+
+html, body {
+  background-color: $bgColor;
+  color: $mainFontColor;
+  letter-spacing: 0.5px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0
+}
